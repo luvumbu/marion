@@ -9,28 +9,37 @@
     𝕨𝕨𝕨.𝔹𝕠𝕜𝕠𝕟𝕫𝕚.𝕔𝕠𝕞  𝖞𝖉𝖊𝖓𝖌𝖆 𝕿𝖚𝖛𝖚𝖒𝖇𝖚   ★☆♨♫✈❤  -->
    <div> 
        <div class="center">
+           <div id="menu" onclick="grand()">
+                <div class="menu"></div>
+                <div class="menu"></div>
+                <div class="menu"></div>
+           </div>
+
             <h1>carnet de route </h1>
+
        </div>
+    
+
    </div>
    <div class="distance"></div>
-   <div class="display-flex">
+   <div class="display-flex grand">
 
        <div>
       <p  style="text-align: center">Carte postale</p>  						
        </div>
-       <div>
+       <div class="center">
          <p> Carnet de voyage</p> 
        </div>
-       <div>
+       <div class="center">
         <p> En savoir plus</p> 
       </div>
-      <div>
+      <div class="center">
         <p> Me contacter</p> 
       </div>
 
    </div>
-   <div class="center padding-topx">
-        <h1 class="voyage"><a>Construisez votre carnet de voyage, unique et illustré </a></h1>
+   <div class="center padding-topx" id="chageimages">
+        <h2 class="voyage"><a>Construisez votre carnet de voyage,unique et illustré </a></h2>
     </div>
     <div class="distance50"></div>
     <div style="text-align: center">
@@ -69,7 +78,7 @@
             </p>
 
         </div>
-        <div class="milieu"> </div>
+        <div> <img src="src/img/2milieu.jpg" alt="" class="milieu"> </div>
 
 
                 <div>
@@ -81,10 +90,8 @@
                                 de voyage illustré, unique et propre à vos envies
                         </p>
                     </div>
-                    <div class="gauche">
-                        
-                            
-                                    </div>
+                    <div class="gauche">  <img src="src/img/1gauche.jpg" alt="" class="gauche">    </div>           
+                                    
         
                         <div>
 
@@ -99,16 +106,15 @@
                              
                                 
                             </div>
-                            <div class="droite">
-                                
+                            <div class="droite">   <img src="src/img/3droite.jpg" alt="" class="droite">      </div>                         
                                     
-                                            </div>
+                                          
             
     </div>
     <div class="distance100"></div>
-  
+   <div class="none">
         <div class="center">
-                <h1 class="voyage"><a>Confiez vos souvenirs et, ensemble, fabriquons votre carnet de voyage !</a></h1>
+                <h2 class="voyage"><a>Confiez vos souvenirs et, ensemble, fabriquons votre carnet de voyage !</a></h2>
             </div>
             <div class="duflex">
                 <div>
@@ -135,142 +141,280 @@
 
 
             </div>
-
+        </div>
 
 
    <style>
-       .giraf 
-       {
-           background-image: url("src/img/girafa.jpg") ; 
-           background-size: 285px  285px  ; 
-       }
-       .distance 
-       {
-           height: 10px;
-          
-       }
-       .distance100 
-       {
-           height: 100px;
-           
-       }
-       .distance50
-       {
-           height: 50px;
-         
-           
-       }
-       .with60
-       {
-           width: 40%;
-           margin:auto ; 
-       }
-       .padding-top
-       {
-           padding-top:50px;
-       }
-       .voyageflex
-       {
-           display: flex ; 
-           justify-content: center;
-           width: 70%;
-           margin:auto ; 
-           flex-wrap: wrap ; 
-       }
-       .duflex 
-       {
-           display: flex ; 
-           justify-content: space-around ; 
-           width: 70%;
-           margin:auto ; 
-           background-color: #687061 ;
-           text-align: center ;  
-       }
-       .duflex div 
-       {
-           width: 100% ; 
-           color: white  ; 
-           padding: 30px; 
-           text-align: justify ; 
-       }
-       .voyageflex div 
-       {
-           width: 285px;
-          
-           padding: 20px;
-       }
-   #logo 
-   {
-       width: 200px; 
-       height: 200px;
-       background-color: black ; 
-       text-align: center ; 
-       margin: auto ; 
-       border-radius: 100%;
-       margin-top:40px;
-       margin-bottom: 40px; 
-     
-   }
-   .padding-topx 
-   {
-       padding-top:30px;
-       background-image: url("src/img/photos.changement/1.jpg") ; 
-       background-size: 100% 500px; 
-       height: 300px;
-   
- 
-   
-   }
-   .gauche 
-   {
-       background-image: url("src/img/1gauche.jpg") ;
-       background-size: 354px 236px;  
-   }
-   .milieu
-   {
-    background-image: url("src/img/2milieu.jpg") ;
-       background-size: 354px 236px;
-   }
-   .droite 
-   {
-    
-    background-image: url("src/img/3droite.jpg") ;
-       background-size: 354px 236px;
-   }
-   .voyage  a
-   {
-       background-color: #687061 ; 
-       padding: 15px; 
-       border-radius: 15px; 
-       color:white ; 
 
-    
- 
-
-   }
-   .center 
-   {
-       text-align: center ; 
-   }
-   .display-flex 
-   {
-       display: flex ; 
-       justify-content: space-around ;
-       border: 1px solid black ;  
-   }
-   .display-flex p 
-   {
-       padding : 15px; 
-   }
-   .fa-angle-down 
-   {
- color :#c2c2c2 ; 
-   }
-   @media all and (max-width: 1024px)
+/*𝕨𝕨𝕨.𝔹𝕠𝕜𝕠𝕟𝕫𝕚.𝕔𝕠𝕞  𝖞𝖉𝖊𝖓𝖌𝖆 𝕿𝖚𝖛𝖚𝖒𝖇𝖚   ★☆♨♫✈❤     
+    //  ★   =   début de l'information
+    //  ☆   =   fin de l'information
+    //  ♨   =   Code de l'information premier letre du fichier et dernier lettre du fichier suivi du numéro du commentaire.
+    //  ♫   = connexion css all suivi du nom du fichier 
+    //  ✈  = ♨=#ap001   provenence du fichier total /!\ ... app.php ...    /!\ racine du fichier ♨=#ap001
+    //  ❥ = le fichier ne pas au même emplacement que l'appelant /!\
+    //
+𝕨𝕨𝕨.𝔹𝕠𝕜𝕠𝕟𝕫𝕚.𝕔𝕠𝕞  𝖞𝖉𝖊𝖓𝖌𝖆 𝕿𝖚𝖛𝖚𝖒𝖇𝖚   ★☆♨♫✈❤  /* */
+#menu 
 {
-    .display-flex
-    {
-        display: block ; 
-    }
+    position: absolute ; 
+    right: 0;
 }
+
+#menu:hover 
+{
+    cursor : pointer ;
+}
+
+.giraf 
+{
+    background-image: url("src/img/girafa.jpg") ; 
+    background-size: 285px  285px  ; 
+}
+.distance 
+{
+    height: 10px;
+   
+}
+.distance100 
+{
+    height: 100px;
+    
+}
+.distance50
+{
+    height: 50px;
+  
+    
+}
+.with60
+{
+    width: 40%;
+    margin:auto ; 
+}
+.padding-top
+{
+    padding-top:50px;
+}
+.voyageflex
+{
+    display: flex ; 
+    justify-content: center;
+    width: 70%;
+    margin:auto ; 
+    flex-wrap: wrap ; 
+}
+.duflex 
+{
+    display: flex ; 
+    justify-content: space-around ; 
+    width: 70%;
+    margin:auto ; 
+    background-color: #b4bbad  ;
+    text-align: center ;  
+}
+.duflex div 
+{
+    width: 100% ; 
+    color: white  ; 
+    padding: 30px; 
+    text-align: justify ; 
+}
+.voyageflex div 
+{
+    width: 285px;
+   
+    padding: 20px;
+}
+
+.padding-topx 
+{
+padding-top:30px;
+background-image: url("src/img/photos.changement/1.jpg") ; 
+background-size: 100% 500px; 
+height: 300px;
+
+
+
+}
+.gauche 
+{
+width: 100%;
+height: 236px; 
+}
+.milieu
+{
+
+width: 100%;
+height: 236px;
+}
+.droite 
+{
+width: 100%;
+height: 236px;
+}
+.voyage  a
+{
+background-color: #b4bbad  ; 
+padding: 15px; 
+border-radius: 15px; 
+color:white ; 
+
+
+
+
+}
+.center 
+{
+text-align: center ; 
+}
+.display-flex 
+{
+display: none; 
+justify-content: space-around ;
+border: 1px solid black ;  
+}
+.display-flex p 
+{
+padding : 15px; 
+}
+.fa-angle-down 
+{
+color :#c2c2c2 ; 
+}
+@media all and (max-width: 1024px)
+{
+.voyageflex
+{
+
+    width: 100%;
+
+}
+.none 
+{
+    display:none ;
+}
+.voyage  a
+{
+display: none ; 
+
+
+
+
+
+}
+
+.display-flex
+{
+ display: block ; 
+}
+.grand 
+{
+ display: none ; 
+}
+.menu 
+{
+width: 35px;
+height: 5px;
+background-color: black;
+margin: 6px 0;
+}
+.back1,.back2,.back3,.back4
+{
+padding-top:30px;
+background-size: 100% 500px; 
+height: 100%;
+width: 100%;
+text-align: center ; 
+transition: 3s all ; 
+}
+}
+
+.back1,.back2,.back3,.back4
+{
+padding-top:30px;
+background-size: 100% 500px; 
+height: 300px;
+text-align: center ; 
+transition: 3s all ; 
+}
+.back1
+{
+background-image: url("src/img/photos.changement/1.jpg") ; 
+}
+.back2
+{
+background-image: url("src/img/photos.changement/2.jpg") ; 
+}
+.back3
+{
+background-image: url("src/img/photos.changement/3.jpg") ; 
+}
+.back4
+{
+background-image: url("src/img/photos.changement/4.jpg") ;    
+}
+
+
    </style>
+
+<script> 
+
+   var test = document.getElementsByClassName("padding-topx")[0] ; 
+
+   var testid = document.getElementById("chageimages") ; 
+
+var imagechange = 1 ; 
+
+    setInterval(function(){ 
+       
+       
+        
+        if(imagechange==1)
+        {
+            test.className='back1';
+        }
+        if(imagechange==2)
+        {
+            test.className='back2';
+        }
+        if(imagechange==3)
+        {
+            test.className='back1';
+        }
+        if(imagechange==4)
+        {
+            test.className='back4';
+        }
+        if(imagechange>=4)
+        {
+            imagechange=0;
+        }
+         imagechange++ ; 
+
+        
+        
+        }, 4000);
+   //test.style.backgroundImage  = "url('src/img/01.gif')";
+
+   function grand() 
+   {
+      
+    var valeur =  document.getElementsByClassName("grand")[0].style.display ;
+  
+    if(valeur=="none")
+    {
+        document.getElementsByClassName("grand")[0].style.display='block' ;
+    }
+    else 
+    {
+        document.getElementsByClassName("grand")[0].style.display='none' ;
+    }
+
+    
+   }
+   
+
+
+
+   </script>
